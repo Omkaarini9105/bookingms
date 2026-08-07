@@ -1,3 +1,135 @@
+# Booking Management System
+
+A web-based Booking Management System developed using Laravel and MySQL that allows users to book hotel rooms online while providing an admin panel to manage bookings, users, and website content efficiently.
+
+## Features
+
+- User Registration and Login
+- Secure Authentication
+- Online Room Booking
+- Booking Management
+- User Dashboard
+- Admin Dashboard
+- Manage Users
+- Manage Bookings
+- Manage Website Content
+- Profile Management
+- Responsive User Interface
+
+## Technologies Used
+
+- Laravel
+- PHP
+- MySQL
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Blade Templates
+
+## Installation
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies.
+
+```bash
+composer install
+```
+
+4. Copy the environment file.
+
+```bash
+cp .env.example .env
+```
+
+5. Generate the application key.
+
+```bash
+php artisan key:generate
+```
+
+6. Configure the database credentials in the `.env` file.
+
+7. Run the migrations.
+
+```bash
+php artisan migrate
+```
+
+8. Start the development server.
+
+```bash
+php artisan serve
+```
+
+9. Open the application in your browser.
+
+```
+http://127.0.0.1:8000
+```
+
+## Project Screenshots
+
+### Home Page
+
+Displays the homepage of the Booking Management System.
+
+![Home Page](home1.png)
+
+---
+
+### Home Page - Banner Section
+
+Displays the banner and featured hotel section.
+
+![Home Page Banner](home2.png)
+
+---
+
+### Home Page - Services
+
+Displays additional information available on the homepage.
+
+![Home Page Services](home3.png)
+
+---
+
+### About Us
+
+Provides information about the hotel and its services.
+
+![About Us](about%20us.png)
+
+---
+
+### Our Team
+
+Displays the hotel management team.
+
+![Our Team](our%20team.png)
+
+---
+
+### Contact Us
+
+Displays contact information for users.
+
+![Contact Us](contact%20us.png)
+
+## Future Enhancements
+
+- Online Payment Integration
+- Email Notifications
+- Booking Confirmation via SMS
+- Room Availability Calendar
+- Search and Filter Bookings
+- Booking Reports
+- Customer Feedback System
+
+## Author
+
+**Omkaarini Annapuri**
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
